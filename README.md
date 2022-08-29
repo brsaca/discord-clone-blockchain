@@ -31,6 +31,9 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 </a>   
 <a href="https://gun.eco/">
 <img src="images/gunjs.png" align="center" width="7%">
+</a>    
+<a href="https://vercel.com/">
+<img src="images/vercel.png" align="center" width="10%">
 </a>   
 </p>
 
@@ -57,3 +60,4 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 
 Copyright © 2022 [Brenda Saavedra](https://github.com/brenfondeadora).<br />
 This project is [MIT License](LICENSE)
+
