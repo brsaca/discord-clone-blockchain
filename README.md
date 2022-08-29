@@ -36,12 +36,11 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 
 ## 🤖 Requirements
 
-- Have an account on [gunjs](https://moralis.io/) to use the server
+
 
 ## ✨ TODO
 
-- [ ] Tests
-- [ ] Show login button with user and ether
+
 
 <br>
 
