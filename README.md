@@ -34,7 +34,10 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 </a>    
 <a href="https://vercel.com/">
 <img src="images/vercel.png" align="center" width="10%">
-</a>   
+</a>      
+<a href="https://www.sanity.io/">
+<img src="images/sanity.png" align="center" width="10%">
+</a>  
 </p>
 
 ## 🤖 Requirements
@@ -60,4 +63,3 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 
 Copyright © 2022 [Brenda Saavedra](https://github.com/brenfondeadora).<br />
 This project is [MIT License](LICENSE)
-
