@@ -1,5 +1,7 @@
 import styles from '../styles/chatView.module.css'
 import ChatHeader from './ChatHeader'
+import MessageForm from './MessageForm'
+
 const ChatView = () => {
 
   return (
@@ -15,8 +17,8 @@ const ChatView = () => {
             content={message.content}
           />
         ))}
-      </div>
-        <MessageForm /> */}
+        </div> */}
+        <MessageForm /> 
     </div>
   )
 }
