@@ -1,9 +1,10 @@
 import styles from '../styles/Home.module.css'
+import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
     <div className={styles.wrapper}>
-      { /* <SideBar /> */}
+      <Sidebar />
       <div className={styles.main}>
        {/* <ConversationList /> */}
        {/* <ChatView /> */}
@@ -11,3 +12,4 @@ export default function Home() {
     </div>
   )
 }
+
