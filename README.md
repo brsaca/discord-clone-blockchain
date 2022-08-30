@@ -37,12 +37,17 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 </a>      
 <a href="https://www.sanity.io/">
 <img src="images/sanity.png" align="center" width="10%">
+</a>     
+<a href="https://www.heroku.com/">
+<img src="images/heroku.png" align="center" width="10%">
 </a>  
 </p>
 
 ## 🤖 Requirements
 
-
+- Have an account on [Heroku](https://www.heroku.com/)
+- Have an account on [Sanity](https://www.sanity.io/)
+- Have an account on [Vercel](https://vercel.com/)
 
 ## ✨ TODO
 
