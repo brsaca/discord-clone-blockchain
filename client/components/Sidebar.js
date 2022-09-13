@@ -26,6 +26,7 @@ const Sidebar = () => {
     <div className={styles.wrapper}>
       {channels.map((channel, index) => (
         <RoomAvatar
+          key={index}
           id={channel.roomId}
           avatar={channel.avatar}
           name={channel.roomName}
