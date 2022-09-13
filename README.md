@@ -3,14 +3,14 @@
 Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat App with Next.js | Sanity.io | Gun.js](https://www.youtube.com/watch?v=ZsV-jDk7dS8)
 
 <p align="center">
-<!--<a href="https://62fbf30c2cdeff0008e057eb--bsc-coinmarketcap-clone-blockchain.netlify.app/">
-<img src="images/home.png" align="center" width="80%">
-</a>  -->
+<a href="">
+<img src="images/discord.png" align="center" width="80%">
+</a>  
 <br><br>
      Discord
     <br><br>
     <a href="#">
-    <img alt="Status" src="https://img.shields.io/badge/Status-WIP-red.svg" />
+    <img alt="version" src="https://img.shields.io/badge/Version-1.0-red.svg" />
   </a>
   <a href="#">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-orange.svg" />
@@ -49,9 +49,13 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 - Have an account on [Sanity](https://www.sanity.io/)
 - Have an account on [Vercel](https://vercel.com/)
 
+- Run vercel dev
+- Run sanity on localhost inside studio sanity start
+- Open http://localhost:3333/ to see the database
+
 ## ✨ TODO
 
-
+- [ ] Tests
 
 <br>
 
