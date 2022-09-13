@@ -8,15 +8,18 @@ import pin from '../assets/icons/pin.svg'
 import at from '../assets/icons/at.svg'
 import styles from '../styles/chatHeader.module.css'
 import ethLogo from '../assets/eth.png'
+import { useContext } from 'react'
+import { DiscordContext } from '../context/context'
 
-const currentAccount = '0xf78D69953DE15C160c657f633782725f4A8dc0CB'
+//const currentAccount = '0xf78D69953DE15C160c657f633782725f4A8dc0CB'
 
 const ChatHeader = () => {
+  const { roomName, currentAccount, connectWallet } = useContext(DiscordContext)
   return (
     <div className={styles.chatHeader}>
       <div className={styles.roomNameContainer}>
         <Image height={20} width={20} src={at} className={styles.svg} alt='' />
-        <h3 className={styles.title}>Room Name</h3>
+        <h3 className={styles.title}>{roomName}</h3>
         <div className={styles.chatHeaderStatus} id='online' />
       </div>
       {currentAccount ? (
