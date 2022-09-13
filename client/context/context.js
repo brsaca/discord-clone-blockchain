@@ -29,7 +29,41 @@ export const DiscordProvider = ({ children }) => {
         checkIfWalletIsConnected()
     }, [])
 
-    const createUserAccount = async (userAddress = currentAccount) => { }
+    const createUserAccount = async (userAddress = currentAccount) => {
+        if (!window.ethereum) return
+    
+        try {
+          const data = {
+            userAddress: userAddress,
+          }
+    
+          try {
+            await fetch(`${process.env.NEXT_PUBLIC_API_URL}/createuser`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(data),
+            })
+          } catch (error) {
+            console.error(error)
+          }
+    
+          try {
+            await fetch(`${process.env.NEXT_PUBLIC_API_URL}/createdm`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(data),
+            })
+          } catch (error) {
+            console.error(error)
+          }
+        } catch (error) {
+          console.error(error)
+        }
+    }
 
     const checkIfWalletIsConnected = async () => {
         if (!window.ethereum) return
@@ -63,6 +97,20 @@ export const DiscordProvider = ({ children }) => {
     }
 
     return (
-        <DiscordContext.Provider value={{}}>{children}</DiscordContext.Provider>
+        <DiscordContext.Provider 
+        value={{
+            currentAccount,
+            roomName,
+            setRoomName,
+            placeholder,
+            messageText,
+            setMessageText,
+            state,
+            gun,
+            connectWallet,
+            currentUser,
+          }}>
+            {children}
+        </DiscordContext.Provider>
     )
 }
