@@ -4,38 +4,19 @@ import Image from 'next/image'
 import friends from '../assets/icons/friends.svg'
 import nitro from '../assets/icons/nitro.svg'
 import DmCard from './DmCard'
-
-import avatar1 from '../assets/avatar-1.webp'
-import avatar2 from '../assets/avatar-2.png'
-import avatar3 from '../assets/avatar-3.webp'
-import avatar4 from '../assets/avatar-4.webp'
-
-const dummyDms = [
-    {
-      id: 1,
-      name: 'Pau',
-      avatar: avatar1,
-    },
-    {
-      id: 2,
-      name: 'Yuka',
-      avatar: avatar2,
-    },
-    {
-      id: 3,
-      name: 'Bren',
-      avatar: avatar3,
-    },
-    {
-      id: 4,
-      name: 'Soto',
-      avatar: avatar4,
-    }
-  ]
-
   
 const ConversationList = () => {
-  const [dms, setDms] = useState(dummyDms)
+  const [dms, setDms] = useState([])
+
+  useEffect(async () => {
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/getdms`)
+
+      setDms(await response.json())
+    } catch (error) {
+      console.error(error)
+    }
+  }, [])
 
   return (
     <div className={styles.conversations}>
