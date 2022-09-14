@@ -3,7 +3,7 @@
 Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat App with Next.js | Sanity.io | Gun.js](https://www.youtube.com/watch?v=ZsV-jDk7dS8)
 
 <p align="center">
-<a href="">
+<a href="https://discord-clone-blockchain-28mokabmn-brenfondeadora.vercel.app/">
 <img src="images/discord.png" align="center" width="80%">
 </a>  
 <br><br>
