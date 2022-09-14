@@ -9,8 +9,11 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 <br><br>
      Discord
     <br><br>
-    <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/Version-1.0-red.svg" />
+  <a href="#">
+    <img alt="version" src="https://img.shields.io/badge/Version-v1.0-red.svg" />
+  </a>
+  <a href="#">
+    <img alt="environment" src="https://img.shields.io/badge/Environment-localhost-green.svg" />
   </a>
   <a href="#">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-orange.svg" />
@@ -56,6 +59,7 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 ## ✨ TODO
 
 - [ ] Tests
+- [ ] Fix production => sanity data is not loaded
 
 <br>
 
