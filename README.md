@@ -59,7 +59,7 @@ Based on youtube tutorial [Build Discord Web 3.0 Real-Time Decentralized Chat Ap
 ## ✨ TODO
 
 - [ ] Tests
-- [ ] Fix production => sanity data is not loaded
+- [x] Fix production => sanity data is not loaded (add env variables in vercel)
 
 <br>
 
